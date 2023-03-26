@@ -51,7 +51,6 @@ p {
 	color: var(--primary-white);
  	background-color: var(--primary-link-color);
  	border-radius: 4px;
-  	border: none;
   	cursor: pointer;
 
 	transition: backgroung-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -490,7 +489,6 @@ img{
 
 .footer-container{
 	display: flex;
-	gap: 120px;
 }
 
 .footer-title {
@@ -505,6 +503,7 @@ img{
 .footer-social {
 	display: flex;
 	flex-direction: column;
+	margin-left: 120px;
   }
 
 .footer-list {
@@ -557,6 +556,7 @@ margin-bottom: 72px;
 
 .portfolio-btn{
 	background-color: var(--accent-color);
+	color:var(--primary-link-color);
 	border: 1px solid var(--accent-color);
 	min-width: 69px;
   	min-height: 48px;
